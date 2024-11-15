@@ -1,0 +1,89 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+
+  body {
+    height: 100vh;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+       
+        height: 100vh;
+
+        main{
+            box-sizing: border-box;
+            .card{
+                box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+                .header{
+                    // margin-bottom: 16px;
+                    padding: 16px;
+                }
+                border-radius: 10px;
+                box-sizing: border-box;
+                // padding: 16px;
+                background-color: #fff;
+                // width: 400px;
+                .sub-header{
+                    padding: 0 16px;
+                    // margin-bottom: 16px;
+                    
+                    p{
+                        font-size: 12px;
+                        padding: 5px 10px;
+                        background-color: #F9F4FF;
+                        color: #662BA4;
+                        font-weight: bold;
+                        border-radius: 10px;
+                        width: 65px;
+                    }
+                }
+                .desc{
+                    padding: 16px;
+                    h3{
+                        color: #1F293A;
+                    }
+
+                    span{
+                        color: #606672;
+                        font-size: medium;
+                        
+                    }
+                    line-height: 1.5;
+                    width: 336px;
+                    // margin-bottom: 20px;
+                }
+            }
+        }
+
+        .footer{
+            padding: 16px;
+            // margin-top: 16px;
+            color: #606672;
+            font-size: small;
+        }
+    }
+
+    hr{
+        border: 0.5px solid #606672;
+        opacity: 0.5;
+        width: 100%;
+    }
+
+  }
+
+  .author-info {
+    font-size: 14px;
+    text-align: center;
+    margin-top: 16px;
+    color: rgb(55, 65, 81);
+  }
+
+  .author-info a {
+    text-decoration: none;
+  }

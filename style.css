@@ -1,0 +1,74 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  height: 100vh;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+}
+body .container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+body .container main {
+  box-sizing: border-box;
+}
+body .container main .card {
+  box-shadow: 8px 8px 20px 0px rgba(85, 85, 85, 0.08);
+  border-radius: 10px;
+  box-sizing: border-box;
+  background-color: #fff;
+}
+body .container main .card .header {
+  padding: 16px;
+}
+body .container main .card .sub-header {
+  padding: 0 16px;
+}
+body .container main .card .sub-header p {
+  font-size: 12px;
+  padding: 5px 10px;
+  background-color: #F9F4FF;
+  color: #662BA4;
+  font-weight: bold;
+  border-radius: 10px;
+  width: 65px;
+}
+body .container main .card .desc {
+  padding: 16px;
+  line-height: 1.5;
+  width: 336px;
+}
+body .container main .card .desc h3 {
+  color: #1F293A;
+}
+body .container main .card .desc span {
+  color: #606672;
+  font-size: medium;
+}
+body .container .footer {
+  padding: 16px;
+  color: #606672;
+  font-size: small;
+}
+body hr {
+  border: 0.5px solid #606672;
+  opacity: 0.5;
+  width: 100%;
+}
+
+.author-info {
+  font-size: 14px;
+  text-align: center;
+  margin-top: 16px;
+  color: rgb(55, 65, 81);
+}
+
+.author-info a {
+  text-decoration: none;
+}/*# sourceMappingURL=style.css.map */
